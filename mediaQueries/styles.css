@@ -1,0 +1,21 @@
+/* Base styles */
+.container {
+    padding: 20px;
+    text-align: center;
+}
+ 
+.text-block {
+    background-color:deeppink;
+    padding: 20px;
+    color: chartreuse;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+ 
+/* Media query for small screens */
+@media (max-width: 600px) {
+    .text-block {
+        display: none;
+    }
+}
+ 
