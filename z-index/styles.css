@@ -8,6 +8,7 @@ body, h1, h2 {
 body {
     padding: 20px;
     background-color: #f4f4f4;
+    
 }
  
 h1, h2 {
@@ -44,6 +45,7 @@ section {
  
 .box2 {
     background-color: blue;
+    opacity: 0.5;
     top: 100px;
     left: 100px;
     z-index: 3;
