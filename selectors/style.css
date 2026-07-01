@@ -1,0 +1,89 @@
+/* Element Selector */
+h5 {
+  color: blue;
+}
+ 
+/* ID Selector */
+#special {              /* You can also target a particular element like p#special */
+  color: red;
+  font-size: 20px;
+  border: 2px solid black;
+}
+ 
+/* Class Selector */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}
+ 
+/* Universal Selector */
+* {
+  font-family: Arial, sans-serif;
+}
+ 
+/* Attribute Selector */
+a[title] {                  /* Other variants : [title], [title="Hover over me!"], [href], a[href], a[href="#"] */
+  color: green;
+  font-style: italic;
+}
+ 
+/* Descendant Selector */
+.container p {
+  background-color: lightgray;
+  padding: 10px;
+}
+ 
+/* Child Selector */
+.parent > p {
+  background-color: lightgreen;
+  padding: 10px;
+}
+ 
+/* General Sibling Selector */
+.general-first ~ p {
+  background-color: lightpink;
+  padding: 10px;
+}
+ 
+/* Adjacent Sibling Selector */
+.first + .second {
+  background-color: lightblue;
+  padding: 10px;
+}
+ 
+/* Grouping Selector */
+h3,
+h4 {
+  color: fuchsia;
+  font-weight: bold;
+}
+ 
+/* Class Selector on a particular element */
+p.important {
+  background-color: yellowgreen;
+}
+div.important {
+  background-color: aqua;
+}
+ 
+/* Mutliple CSS classes */
+.message {
+  padding: 0.5em;
+  background-color: lightgreen;
+}
+ 
+.message.warning {
+  color: red;
+  font-weight: bold;
+}
+ 
+ .box_overflow{
+  width: 50%;
+  height: 50%;
+  background-color: antiquewhite;
+  border: 2px solid black;
+  /* overflow: hidden; */
+  /* overflow: auto; */
+  /* overflow: auto; */
+ font-size: 2em;
+ }

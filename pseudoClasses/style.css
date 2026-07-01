@@ -1,0 +1,49 @@
+/* unvisited link */
+a:link {
+  color: red;
+}
+ 
+/* visited link */
+a:visited {
+  color: green;
+}
+ 
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+ 
+/* selected link */
+a:active {
+  color: blue;
+}
+ 
+ 
+/* :focus */
+.focus:focus {
+  border: 2px solid #4682b4; /* SteelBlue color on focus */
+  outline: none;
+}
+ 
+/* :nth-child() */
+.nth-child:nth-child(even) {
+  background-color: #70f1f1; /* LightGray background for the second item */
+}
+ 
+/* :first-child and :last-child */
+.first-child:first-child {
+  font-weight: bold;
+  color: #ff4500; /* OrangeRed color for the first child */
+}
+ 
+.last-child:last-child {
+  font-style: italic;
+  color: #4682b4; /* SteelBlue color for the last child */
+}
+ 
+/* :nth-of-type() */
+.nth-of-type:nth-of-type(2) {
+  color: #ff1493; /* DeepPink color for the second paragraph */
+}
+ 
+ 
